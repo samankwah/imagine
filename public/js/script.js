@@ -140,6 +140,29 @@ Math.ceil(Math.random() * 1000000);
 
 
 
+// String concatenation
+const firstname = 'Supa';
+const lastname = 'Future';
+firstname.trim() + ' ' + lastname.trim();
+
+// Template literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.charAt(4);
+`${firstname.trim()} ${lastname.trim()}`.charAt(3);
+`${firstname.trim().charAt(0)} ${lastname.trim().charAt(0)}`;
+
+// String conversion
+String(2014);
+
+
+
 
 
 
