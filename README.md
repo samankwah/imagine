@@ -1,0 +1,1 @@
+This repository is dedicated to my programming practice. It contains simple codes that might seem trivial now, but I believe that with continuous learning, I will enhance my skills and improve over time. Every small step is a step towards success.
