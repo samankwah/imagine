@@ -163,8 +163,35 @@ String(2014);
 
 
 
+// write a function that will add a participant to our google classroom 
+
+const participants = [];
+function addParticipant(email) {
+  // check if email was provided
+  if (!email) {
+    return 'Email not provided!';
+  }
+  // check if email is valid
+  if (!email.includes('@')) {
+    return 'Invalid email provided!';
+  }
+  // Add email to the participants
+  participants.push(email);
+  // Notify them via mail
+  // return response
+    return 'Participant added!';
+  }
+
+addParticipant('ovafuture@meteo.gov.gh');
 
 
+
+// Arrays in JavaScript
+
+const alphabets = ['A', 'B', 'C', 'D'];
+alphabets;
+alphabets.join('');
+alphabets.join('').split('');
 
 
 
